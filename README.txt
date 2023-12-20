@@ -38,7 +38,7 @@ Getting Started:
             i. python manage.py runserver
 
     6. Access Admin Interface:
-        a. Open a web browser and go to http://localhost:8000/admin/. 
+        a. Open a web browser and go to https://punitlanjewar.pythonanywhere.com/admin/. 
         b. Log in with the superuser credentials.                 
 
     7. Create Todo Items:
@@ -46,13 +46,13 @@ Getting Started:
 
     8. Access API Endpoints:
         a. Explore the To-Do List API endpoints:
-            i. Create: http://localhost:8000/create-item
-           ii. Read One: http://localhost:8000/read-item/{item_id}
-          iii. Read All: http://localhost:8000/list-items
-           iv. Update: http://localhost:8000/todos/update-item/{item_id}
-            v. Delete: http://localhost:8000/todos/delete-item/{item_id}        
+            i. Create: https://punitlanjewar.pythonanywhere.com/create-item
+           ii. Read One: https://punitlanjewar.pythonanywhere.com/read-item/{item_id}
+          iii. Read All: https://punitlanjewar.pythonanywhere.com/list-items
+           iv. Update: https://punitlanjewar.pythonanywhere.com/update-item/{item_id}
+            v. Delete: https://punitlanjewar.pythonanywhere.com/delete-item/{item_id}        
         b. To generate token for authentication:
-            i. http://localhost:8000/api-token-auth
+            i. https://punitlanjewar.pythonanywhere.com/api-token-auth
 
     9. Stop the Server:
         a. Press Ctrl + C in the terminal to stop the Django development server.        
